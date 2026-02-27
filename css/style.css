@@ -6,7 +6,20 @@
 
 header {
   background-color: #24053e;
+  position: relative;
 }
+
+/* header::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: -5px;
+  width: 110%;
+  height: 100px;
+  background-color: #24053e;
+  border-radius: 50%;
+  z-index: -1;
+} */
 
 nav {
   padding: 32px 20px 0 20px;
@@ -24,4 +37,55 @@ nav {
   font-size: 18px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
+}
+
+.header-hero-section {
+  padding: 56px 20px 144px 20px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.hero-section-heading {
+  font-family: "Fraunces", serif;
+  font-size: 48px;
+  font-weight: 350;
+  color: white;
+}
+
+.hero-section-heading span {
+  border-bottom: 3px solid #44ffa1;
+}
+
+.hero-section-button {
+  margin-top: 40px;
+  padding: 12px 32px;
+  border: none;
+  background-color: #44ffa1;
+  color: #24053e;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  line-height: 180%;
+  cursor: pointer;
+}
+
+.header-hero-image-container {
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 8px;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  transform: translate(-50%, 50%);
+}
+
+.header-hero-image {
+  width: 100%;
+}
+
+.founder-image {
+  width: 100px;
 }
