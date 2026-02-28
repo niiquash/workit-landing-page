@@ -162,8 +162,73 @@ main {
 
 .founder-image-container {
   width: 100%;
+  padding: 0 32px;
+  overflow: hidden;
+  margin-bottom: -50px;
 }
 
 .founder-image {
-  width: 100px;
+  width: 100%;
+}
+
+.founder-bio {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #24053e;
+  color: white;
+}
+
+.founder-bio h2 {
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.founder-bio p {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  line-height: 180%;
+  margin-bottom: 32px;
+}
+
+.founder-bio button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #44ffa1;
+  color: #24053e;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 32px;
+}
+
+footer {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content-container {
+  width: 116px;
+  height: 101px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid #24053e; */
+}
+
+.footer-socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
