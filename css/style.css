@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Header Section */
 .navigation,
 .hero-section {
   background-color: #24053e;
@@ -33,4 +34,60 @@
 
 .navigation-button:hover {
   color: #44ffa1;
+}
+
+/* Hero section */
+.hero-section {
+  padding: 56px 20px 144px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  bottom: -41px;
+  left: 0%;
+  width: 100%;
+  height: 80px;
+  background-color: #24053e;
+  border-radius: 50%;
+}
+
+.hero-section-spiral-1,
+.hero-section-spiral-2 {
+  position: absolute;
+}
+
+.hero-section-spiral-1 {
+  left: -100%;
+}
+
+.hero-section-spiral-2 {
+  right: 100%;
+}
+
+.hero-section-heading-and-button {
+  width: 375px;
+  text-align: center;
+}
+
+.hero-section-heading h1 {
+  color: white;
+  font-family: "Fraunces", serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.hero-section-button {
+  border: none;
+  padding: 12px 32px;
+  background-color: #44ffa1;
+  color: #24053e;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
