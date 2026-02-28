@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation,
+.hero-section {
+  background-color: #24053e;
+}
+
+.navigation {
+  padding: 32px 20px 0 20px;
+}
+
+.logo-and-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-button {
+  border: none;
+  border-bottom: 3px solid #44ffa1;
+  background-color: transparent;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 180%;
+  cursor: pointer;
+}
+
+.navigation-button:hover {
+  color: #44ffa1;
+}
